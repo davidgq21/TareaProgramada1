@@ -1,0 +1,79 @@
+# TareaProgramada1
+Proyecto 1 Estructura de datos
+package tareaprogramada1;
+
+/**
+ *
+ * @author User
+ */
+public class Casilla {
+    private double valorCompra;
+    private int peage;
+    private double alquiler1Casa;
+    private double alquilerHacienda;
+    private double alquilerHotel;
+    private String Dueño;
+    private String descripcion;
+    
+    public Casilla() {
+    }
+
+    public void setValorCompra(double valorCompra) {
+        this.valorCompra = valorCompra;
+    }
+
+    public void setPeage(int peage) {
+        this.peage = peage;
+    }
+
+    public void setAlquiler1Casa(double alquiler1Casa) {
+        this.alquiler1Casa = alquiler1Casa;
+    }
+
+    public void setAlquilerHacienda(double alquilerHacienda) {
+        this.alquilerHacienda = alquilerHacienda;
+    }
+
+    public void setAlquilerHotel(double alquilerHotel) {
+        this.alquilerHotel = alquilerHotel;
+    }
+
+    public void setDueño(String Dueño) {
+        this.Dueño = Dueño;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public double getValorCompra() {
+        return valorCompra;
+    }
+
+    public int getPeage() {
+        return peage;
+    }
+
+    public double getAlquiler1Casa() {
+        return alquiler1Casa;
+    }
+
+    public double getAlquilerHacienda() {
+        return alquilerHacienda;
+    }
+
+    public double getAlquilerHotel() {
+        return alquilerHotel;
+    }
+
+    public String getDueño() {
+        return Dueño;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+    
+    
+    
+}
