@@ -1,0 +1,41 @@
+# TareaProgramada1
+Proyecto 1 Estructura de datos
+package tareaprogramada1;
+/**
+ *
+ * @author User
+ */
+public class jugador {
+    private String nombre;
+    private Ficha ficha;
+    private double Dinero;
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public Ficha getFicha() {
+        return ficha;
+    }
+
+    public double getDinero() {
+        return Dinero;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setFicha(Ficha ficha) {
+        this.ficha = ficha;
+    }
+
+    public void setDinero(double Dinero) {
+        this.Dinero = Dinero;
+    }
+
+    public jugador() {
+    }
+    
+    
+}
